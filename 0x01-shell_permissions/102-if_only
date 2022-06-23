@@ -1,2 +1,2 @@
-#!/bin/bash
-chown betty:guillaume hello
+#!/bin/bas
+find -user guillaume -name hello | xargs chown betty
