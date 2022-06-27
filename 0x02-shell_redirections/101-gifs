@@ -1,2 +1,2 @@
 #!/bin/bash
-find ls -R | grep '\.gif$'
+find . -type f -name "*.js" | xargs   
